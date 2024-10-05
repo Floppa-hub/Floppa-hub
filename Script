@@ -6,7 +6,7 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 Tab:AddButton({
-	Name = "Button!",
+	Name = "The hunt Fe Key",
 	Callback = function()
       		local animationId = "16719053698"
 
@@ -18,6 +18,15 @@ local animation = Instance.new("Animation")
 animation.AnimationId = "rbxassetid://" .. animationId
 local animationTrack = humanoid:LoadAnimation(animation)
 animationTrack:Play()
+  	end    
+})
+Tab:AddButton({
+	Name = "",
+	Callback = function()
+      		player =  "S"
+fakemsg = "Kj Is Now Free In Private Servers."
+message = "###########                                                                                                                                     ["..tostring(player).."] "..tostring(fakemsg)
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message, "All")
   	end    
 })
 --other tab
