@@ -85,3 +85,27 @@ Tab:AddButton({
       		loadstring(game:HttpGet("https://pastebin.com/raw/7V1mUBtQ"))()
   	end    
 })
+--other tab
+local Tab = Window:MakeTab({
+	Name = "Other Hubs",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Camera Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Gokou300/Gokou300/main/Key%20System%20Camera%20Hub"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Bill Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/u89XGx98"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "skibidi cat hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastefy.app/KKo8Fa0c/raw"))()
+  	end    
+})
