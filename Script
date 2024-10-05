@@ -67,3 +67,21 @@ getgenv().AttackQuality = 'High'
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/main/APOPHENIA.lua"))()
   	end    
 })
+Tab:AddButton({
+	Name = "saitama to hakari",
+	Callback = function()
+      		loadstring(game:HttpGet("https://rawscripts.net/raw/The-Strongest-Battlegrounds-Hero-to-True-Nosakatan-18742"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "saitama to gojo",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/BaldyToSorcerer/main/Latest.lua"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "hero hunter to sonic",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/7V1mUBtQ"))()
+  	end    
+})
