@@ -32,3 +32,9 @@ Tab:AddButton({
       		loadstring(game:HttpGet("https://rawscripts.net/raw/The-Strongest-Battlegrounds-Hero-hunter-moveset-into-OP-goku-moveset-17468"))()
   	end    
 })
+Tab:AddButton({
+	Name = "blade master to sukuna",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/zyrask/Nexus-Base/main/atomic-blademaster%20to%20sukuna"))()
+  	end    
+})
