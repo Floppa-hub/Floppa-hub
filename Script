@@ -85,6 +85,13 @@ Tab:AddButton({
       		loadstring(game:HttpGet("https://pastebin.com/raw/7V1mUBtQ"))()
   	end    
 })
+Tab:AddLabel("Camerawoman Movesets")
+Tab:AddButton({
+	Name = "Client Kj",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Gokou300/Gokou300/main/kJ%20Moveset%20V2%20by%20camerawoman"))()
+  	end    
+})
 --other tab
 local Tab = Window:MakeTab({
 	Name = "Other Hubs",
