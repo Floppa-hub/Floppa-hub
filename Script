@@ -85,6 +85,12 @@ Tab:AddButton({
       		loadstring(game:HttpGet("https://pastebin.com/raw/7V1mUBtQ"))()
   	end    
 })
+Tab:AddButton({
+	Name = "Child Emperor",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/CaXFZ2S2"))()
+  	end    
+})
 Tab:AddLabel("Camerawoman Movesets")
 Tab:AddButton({
 	Name = "Client Kj",
@@ -114,5 +120,11 @@ Tab:AddButton({
 	Name = "skibidi cat hub",
 	Callback = function()
       		loadstring(game:HttpGet("https://pastefy.app/KKo8Fa0c/raw"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "toji and hakari hub ig?",
+	Callback = function()
+      		loadstring(game:HttpGet"https://raw.githubusercontent.com/Wi-sp/Limitless-legacy/refs/heads/main/GUI")()
   	end    
 })
