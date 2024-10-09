@@ -86,9 +86,15 @@ Tab:AddButton({
   	end    
 })
 Tab:AddButton({
-	Name = "Child Emperor",
+	Name = "Saitama To Child Emperor",
 	Callback = function()
       		loadstring(game:HttpGet("https://pastebin.com/raw/CaXFZ2S2"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Hero Hunter To Arcaura",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/ARCAURA.lua"))()
   	end    
 })
 Tab:AddLabel("Camerawoman Movesets")
@@ -96,6 +102,12 @@ Tab:AddButton({
 	Name = "Client Kj",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/Gokou300/Gokou300/main/kJ%20Moveset%20V2%20by%20camerawoman"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Hero Hunter To Dio",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Medley-Taboritsky/RobloxScripting/refs/heads/main/DIO_Garou_TSB"))()
   	end    
 })
 --other tab
